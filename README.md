@@ -1,5 +1,14 @@
 # 原来Git真的能写成一本书啊
 
+# 简略流程
+- git init
+- git remote add origin URL（like：git@github.com:ronnie14165/learn_git_with_me.git）
+
+- git status
+- git add .
+- git commit -am "write something"
+- git push origin master
+
 ### Git的安装
 略
 ### 完整流程
@@ -36,6 +45,7 @@
 - git remote
 - git remote add origin git@github.com:ronnie14165/learn_git_with_me.git	(命名origin)
 - git remote -v
+- git remote rm origin
 
 ### 由工作区（本地）推送至暂存区
 - git add test.py
